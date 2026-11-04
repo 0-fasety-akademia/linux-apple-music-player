@@ -1,0 +1,23 @@
+Linux Apple Music Player — License
+Copyright (c) 2026 Jaro
+
+Permission is granted, free of charge, to any person to download, install,
+use and redistribute unmodified copies of this software (including the
+.deb package), for personal or commercial purposes.
+
+Modification of this software, or distribution of modified versions,
+is not permitted without prior written permission from the author.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE
+USE OF THE SOFTWARE.
+
+Third-party components keep their own licenses: Electron / Chromium
+(castlabs ECS build with Widevine, see /opt/linux-apple-music-player/LICENSE
+and LICENSES.chromium.html) and dbus-next (MIT).
+
+Apple, Apple Music and iTunes are trademarks of Apple Inc. This project is
+not affiliated with, endorsed or sponsored by Apple Inc. An Apple Music
+subscription is required for full playback.
