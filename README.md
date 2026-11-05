@@ -1,6 +1,6 @@
 # Linux Apple Music Player
 
-**Version 0.2.1 — 2026-11-04**
+**Version 0.2.3 — 2026-11-05**
 
 A fast, lightweight Apple Music player for Ubuntu. It has its own interface built directly on the Apple Music API; Apple's heavy web player is not loaded. Audio plays through Apple's MusicKit with Widevine, so full-length songs work with your subscription.
 
@@ -18,7 +18,9 @@ A fast, lightweight Apple Music player for Ubuntu. It has its own interface buil
 - Cover view: large artwork, blurred background, all controls (Ctrl+Shift+L or click the song in the player bar)
 - Synced lyrics in the cover view; click a line to jump to it
 - Keyboard: Space play/pause, Ctrl+←/→ previous/next, Alt+← back, Esc closes panels
-- Tray icon with play/pause, next, previous and the current song
+- Tray icon in the app's own style, light or dark following the system theme
+- Tray menu with the current song and a small album cover, play/pause, next, previous
+- Mouse wheel over the tray icon changes the volume
 - Closing the window hides it to the tray; quit from the tray menu
 - Ubuntu media controls (MPRIS): song, cover and controls in the top-bar menu and lock screen
 - Media keys and `playerctl` work
@@ -33,7 +35,7 @@ A fast, lightweight Apple Music player for Ubuntu. It has its own interface buil
 
 ```bash
 cd ~/Downloads
-sudo apt install ./linux-apple-music-player_0.2.1_amd64.deb
+sudo apt install ./linux-apple-music-player_0.2.3_amd64.deb
 ```
 
 Start **Linux Apple Music Player** from the app grid and sign in with your Apple ID.
